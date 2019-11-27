@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[1],{23:function(a,e,n){"use strict";n.r(e);var s=n(0),t=n.n(s);e.default=function(){return t.a.createElement("div",{className:"App"},t.a.createElement("div",{className:"box"},"I am dashboard page"))}}}]);
+//# sourceMappingURL=1.react-counter.js.map

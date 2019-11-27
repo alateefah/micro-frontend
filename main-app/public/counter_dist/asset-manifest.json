@@ -1,0 +1,13 @@
+{
+  "main.css": "/static/css/react-counter.css",
+  "main.js": "/static/js/react-counter.js",
+  "main.js.map": "/static/js/react-counter.js.map",
+  "static/js/1.react-counter.js": "/static/js/1.react-counter.js",
+  "static/js/1.react-counter.js.map": "/static/js/1.react-counter.js.map",
+  "static/js/2.react-counter.js": "/static/js/2.react-counter.js",
+  "static/js/2.react-counter.js.map": "/static/js/2.react-counter.js.map",
+  "static/css/react-counter.css.map": "/static/css/react-counter.css.map",
+  "index.html": "/index.html",
+  "precache-manifest.0efdae049f5d4e811827df868f2efd1e.js": "/precache-manifest.0efdae049f5d4e811827df868f2efd1e.js",
+  "service-worker.js": "/service-worker.js"
+}

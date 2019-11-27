@@ -1,20 +1,35 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Counter from './Counter';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
-// comment this lines when you dont want to auto run ReactDOM.render
-const el = document.getElementById('counter-app');
-ReactDOM.render(<Counter />, el);
+import Wrapper from './../src/components/shared/wrapper/wrapper';
+import App from './../src/components/index';
 
-/* uncomment this block to "defer" ReactDOM.render and expose it globaly
+import './../src/assets/scss/app.scss';
+
+// // comment this lines when you dont want to auto run ReactDOM.render
+// const el = document.getElementById('counter-app');
+// ReactDOM.render(
+//     <BrowserRouter basename="form-m">
+//         <Switch>
+//             <Route exact path="/" component={App} />
+//             <Route component={Wrapper} /> 
+//         </Switch>          
+//     </BrowserRouter>, el);
+
 window.ReactCounter = {
     mount: () => {
         const el = document.getElementById('counter-app');
-        ReactDOM.render(<Counter />, el);
+        ReactDOM.render(
+            <BrowserRouter basename="form-m">
+                <Switch>
+                    <Route exact path="/" component={App} />
+                    <Route component={Wrapper} /> 
+                </Switch>          
+            </BrowserRouter>, el);
     },
     unmount: () => {
         const el = document.getElementById('counter-app');
         ReactDOM.unmountComponentAtNode(el);
     }
 }
-*/

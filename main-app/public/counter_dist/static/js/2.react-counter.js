@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[2],{24:function(e,a,n){"use strict";n.r(a);var t=n(0),c=n.n(t);a.default=function(){return c.a.createElement("div",{className:"App"},c.a.createElement("div",{className:"box"},"I am Form M Page"))}}}]);
+//# sourceMappingURL=2.react-counter.js.map
