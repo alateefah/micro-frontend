@@ -10,7 +10,7 @@ import './../src/assets/scss/app.scss';
 // // comment this lines when you dont want to auto run ReactDOM.render
 // const el = document.getElementById('counter-app');
 // ReactDOM.render(
-//     <BrowserRouter basename="form-m">
+//     <BrowserRouter>
 //         <Switch>
 //             <Route exact path="/" component={App} />
 //             <Route component={Wrapper} /> 
@@ -21,7 +21,7 @@ window.ReactCounter = {
     mount: () => {
         const el = document.getElementById('counter-app');
         ReactDOM.render(
-            <BrowserRouter basename="form-m">
+            <BrowserRouter>
                 <Switch>
                     <Route exact path="/" component={App} />
                     <Route component={Wrapper} /> 

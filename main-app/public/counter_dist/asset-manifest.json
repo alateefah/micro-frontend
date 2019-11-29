@@ -1,13 +1,13 @@
 {
-  "main.css": "/static/css/react-counter.css",
-  "main.js": "/static/js/react-counter.js",
-  "main.js.map": "/static/js/react-counter.js.map",
-  "static/js/1.react-counter.js": "/static/js/1.react-counter.js",
-  "static/js/1.react-counter.js.map": "/static/js/1.react-counter.js.map",
-  "static/js/2.react-counter.js": "/static/js/2.react-counter.js",
-  "static/js/2.react-counter.js.map": "/static/js/2.react-counter.js.map",
-  "static/css/react-counter.css.map": "/static/css/react-counter.css.map",
-  "index.html": "/index.html",
-  "precache-manifest.0efdae049f5d4e811827df868f2efd1e.js": "/precache-manifest.0efdae049f5d4e811827df868f2efd1e.js",
-  "service-worker.js": "/service-worker.js"
+  "main.css": "/counter_dist/static/css/react-counter.css",
+  "main.js": "/counter_dist/static/js/react-counter.js",
+  "main.js.map": "/counter_dist/static/js/react-counter.js.map",
+  "static/js/1.react-counter.js": "/counter_dist/static/js/1.react-counter.js",
+  "static/js/1.react-counter.js.map": "/counter_dist/static/js/1.react-counter.js.map",
+  "static/js/2.react-counter.js": "/counter_dist/static/js/2.react-counter.js",
+  "static/js/2.react-counter.js.map": "/counter_dist/static/js/2.react-counter.js.map",
+  "static/css/react-counter.css.map": "/counter_dist/static/css/react-counter.css.map",
+  "index.html": "/counter_dist/index.html",
+  "precache-manifest.8fa5cade551085413c580bc75aa80e37.js": "/counter_dist/precache-manifest.8fa5cade551085413c580bc75aa80e37.js",
+  "service-worker.js": "/counter_dist/service-worker.js"
 }
